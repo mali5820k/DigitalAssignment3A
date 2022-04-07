@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | My project</title>
+    <title>Unity WebGL Player | DA3 Alpha</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">My project</div>
+        <div id="unity-build-title">DA3 Alpha</div>
       </div>
     </div>
     <script>
@@ -56,14 +56,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/DA3Build1.loader.js";
+      var loaderUrl = buildUrl + "/DA3Build2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/DA3Build1.data.gz",
-        frameworkUrl: buildUrl + "/DA3Build1.framework.js.gz",
-        codeUrl: buildUrl + "/DA3Build1.wasm.gz",
+        dataUrl: buildUrl + "/DA3Build2.data.unityweb",
+        frameworkUrl: buildUrl + "/DA3Build2.framework.js.unityweb",
+        codeUrl: buildUrl + "/DA3Build2.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "My project",
+        productName: "DA3 Alpha",
         productVersion: "0.1",
         showBanner: unityShowBanner,
       };
